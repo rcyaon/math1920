@@ -13,6 +13,7 @@ n = 500;   % # points
 theta = linspace(0, 2*pi*N, n);
 
 % parametric equations 
+% ily math stack exchange https://math.stackexchange.com/questions/324527/do-these-equations-create-a-helix-wrapped-into-a-torus#:~:text=Sorted%20by:,%2D%3E%20%7BThick%2C%20Black%7D%5D%5D
 x = (R + w * cos(N * theta)) .* cos(theta);
 y = (R + w * cos(N * theta)) .* sin(theta);
 z = w * sin(N * theta);
