@@ -1,3 +1,1 @@
-visualizing math1920 topics
-
-matlab fiend 
+visualizing multivar calc
